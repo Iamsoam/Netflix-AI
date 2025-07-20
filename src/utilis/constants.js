@@ -4,11 +4,13 @@ export const backgroundURL = "https://assets.nflxext.com/ffe/siteui/vlv3/7d2359a
 
 export const logo = "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" ;
 
+const apiKey = import.meta.env.VITE_TMBD_KEY;
+
 export const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer' + process.env.REACT_APP_TMBD_KEY
+    Authorization: 'Bearer' + ` ${apiKey}` // Ensure there's a space after 'Bearer'
   }
 };
 
