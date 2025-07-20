@@ -1,7 +1,7 @@
 import VideoTitle from './VideoTitle'
 import VideoBackground from './VideoBackground'
 
-import { useNowPlaying } from '../hooks/UseNowPlaying'
+import { useNowPlaying } from '../hooks/useNowPlaying'
 import { useSelector } from 'react-redux'
 import { usePopular } from '../hooks/usePopular'
 import { useTrending } from '../hooks/useTrending'
