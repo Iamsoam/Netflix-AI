@@ -3,7 +3,6 @@ import VideoBackground from './VideoBackground'
 
 import { useNowPlaying } from '../hooks/UseNowPlaying'
 import { useSelector } from 'react-redux'
-import { useTrailerVideo } from '../hooks/useTrailerVideo'
 import { usePopular } from '../hooks/usePopular'
 import { useTrending } from '../hooks/useTrending'
 
